@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <configuration xmlns="http://logging.apache.org/log4php/">
+    
+	<appender name="default" class="LoggerAppenderDailyFile">
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="==%-5level==%n[ %.-20file LINE: %line METHOD: %method %logger ]%n%msg%n%n" />
+        </layout>
+    	<param name="file" value="/tmp/ipblmonitor/logger/Error-%s.log" />
+    	<param name="datePattern" value="Y-m-d" />
+    </appender>
+    
+    <appender name="main_appender" class="LoggerAppenderDailyFile">
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="==%-5level==%n[ %.-20file LINE: %line METHOD: %method %logger ]%n%msg%n%n" />
+        </layout>
+    	<param name="file" value="/tmp/ipblmonitor/logger/Main-%s.log" />
+    	<param name="datePattern" value="Y-m-d" />
+    </appender>
+    
+    <root>
+    	<level value="error" />
+    	<appender_ref ref="default" />
+    </root>
+    
+    <logger name="debug">
+        <level value="DEBUG" />
+        <appender_ref ref="main_appender" />
+    </logger>
+
+
+    <logger name="ipmonitor">
+        <level value="DEBUG" />
+        <appender_ref ref="ipmonitor_appender" />
+    </logger>
+    <appender name="ipmonitor_appender" class="LoggerAppenderDailyFile">
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="==%-5level==%n[ %.-20file LINE: %line METHOD: %method %logger ]%n%msg%n%n" />
+        </layout>
+        <param name="file" value="/tmp/ipblmonitor/logger/ipmonitor-%s.log" />
+        <param name="datePattern" value="Y-m-d" />
+    </appender>
+
+
+
+
+    </configuration>
+

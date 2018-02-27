@@ -1,0 +1,108 @@
+
+.jqgrow td { 
+    vertical-align: middle !important;
+    height: 40px !important; 
+}
+
+
+
+.ui-jqgrid table { border-collapse: separate; }
+.ui-jqgrid .ui-pg-input, .ui-jqgrid .ui-pg-selbox { width: auto;height:20px !important; }
+
+.modal-backdrop {z-index:0 !important;}
+.swMain ul.anchor li a, .swMain div.actionBar{height:auto !important;}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+  .ui-progressbar {
+    position: relative;
+  }
+  .progress-label {
+    position: absolute;
+    width:100%;
+    text-align:center;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  
+  
+  .tab-content .product-details-tab-container {padding:0px !important;}
+  
+  .ui-jqgrid .ui-jqgrid-htable th div{overflow:unset !important;}
+  .ui-search-toolbar{height:50px !important;}
+  
+  div .ui-state-default.ui-jqgrid-toppager{height:40px !important;padding:5px !important;}
+  div .ui-state-default.ui-jqgrid-pager.ui-corner-bottom{height:40px !important;padding:5px !important;}
+  
+
+
+
+.align_center{
+    margin: auto;width: 50%;
+}
+
+.status_good{
+    width: 32px;
+    height:32px;
+    background: url(/modules/addons/ipblmonitor/img/good.png) 0 0 no-repeat;}
+
+.status_bad{
+    width: 32px;
+    height:32px;
+    background: url(/modules/addons/ipblmonitor/img/bad.png) 0 0 no-repeat;}
+
+
+.icon-huge{
+    zoom:1;
+    -moz-transform:scale(1);
+    -moz-transform-origin: 0 0;
+}
+
+.icon-big{
+    zoom:0.60;
+    -moz-transform:scale(0.60);
+    -moz-transform-origin: 0 0;
+}
+
+.icon-small{
+    zoom:0.15;
+    -moz-transform:scale(0.15);
+    -moz-transform-origin: 0 0;
+
+}
+
+.ui-search-toolbar .ui-search-table{
+    width: 90% !important;
+}
+
+
+
+#blcheckresult{
+    font-size:medium;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+
+#pageHeader{margin-bottom:20px;margin-top:20px;height: 100px;}
+
+
+.jqgrow {height:50px !important;}
+
+.ui-jqgrid .ui-jqgrid-toppager { height:35px !important;}
+.ui-jqgrid .ui-jqgrid-toppager .ui-pg-div>span { margin: 0 5px; font-size: 20px; }
+
+
+
+.subgrid-data{padding-bottom:50px !important;}
+
+
+
+.ui-jqgrid .s-ico > .ui-icon.ui-sort-ltr {margin-left:10px !important;}
+.ui-jqgrid-pg-left {width:auto !important;}
+.ui-th-column {height: 30px !important;}
+
+.ui-search-input > .ui-widget-content {height: 20px;}
