@@ -1,3 +1,1 @@
-*.php linguist-language=PHP
-*.js linguist-language=JavaScript
-*.css linguist-language=CSS
+/modules/addons/ipblmonitor/js/* linguist-vendored
